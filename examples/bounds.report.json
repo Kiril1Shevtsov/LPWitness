@@ -1,0 +1,20 @@
+{
+  "format": "lpwitness-report/1",
+  "verified": true,
+  "claim": "bounds",
+  "model_sha256": "0d8992e9a8f8ce3f87dd5cbb2a15b81ce410c40224383e1458600a9c891ae69a",
+  "checks": {
+    "model_binding": true,
+    "primal_inequalities": true,
+    "primal_equalities": true,
+    "dual_nonnegative": true,
+    "dual_stationarity": true,
+    "nonnegative_gap": true
+  },
+  "violations": [],
+  "values": {
+    "primal_objective": "3",
+    "dual_objective": "2",
+    "gap": "1"
+  }
+}

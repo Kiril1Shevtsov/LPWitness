@@ -1,0 +1,13 @@
+{
+  "format": "lpwitness-certificate/1",
+  "model_sha256": "292c104f67ac88a03e4aa62595402c5b2a6fdd8780cb86aa790d0746d7f87543",
+  "kind": "optimal",
+  "x": [
+    "1/5000"
+  ],
+  "y": [
+    "1",
+    "0"
+  ],
+  "z": []
+}

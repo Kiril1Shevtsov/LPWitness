@@ -1,0 +1,54 @@
+{
+  "python": "3.12.14",
+  "scipy": "1.17.0",
+  "numpy": "2.5.5",
+  "source_issue": "https://github.com/scipy/scipy/issues/20336",
+  "native_layout": {
+    "status": 0,
+    "success": true,
+    "reported_equality_residual_l2": 0.0,
+    "recomputed_equality_residual_l2": 0.021185053416350418,
+    "python_warnings": []
+  },
+  "contracts": [
+    {
+      "contract": "source_decimal",
+      "model_sha256": "06d79034280574cf211a941e5e0712f1feb5e3d290e5e4ba94b938e7405ca49f",
+      "solver_status": 0,
+      "raw_verified": false,
+      "raw_equality_residual_linf_exact": "5636239518652620162504227834583/838860800000000000000000000000000",
+      "raw_equality_residual_linf_approx": 0.006718921087566161,
+      "reconstructed_verified": true,
+      "reconstructed_equality_residual_linf_exact": "0",
+      "reconstructed_objective": "-24999999999999999825041137752703/25000000000000000000000000000000",
+      "max_coordinate_change_approx": 66.99288724239597,
+      "seconds": {
+        "solve": 0.0031941339984769,
+        "proposal_and_gate": 0.06360917100028018,
+        "offline_gate": 0.00856113999907393
+      }
+    },
+    {
+      "contract": "solver_binary64",
+      "model_sha256": "9ad2a3f3edc199bb23f00795c5dd304b5d97538af7b5e1e4bfc44596a4703a4c",
+      "solver_status": 0,
+      "raw_verified": false,
+      "raw_equality_residual_linf_exact": "4360829106964148455047081664255/649037107316853453566312041152512",
+      "raw_equality_residual_linf_approx": 0.006718921087566162,
+      "reconstructed_verified": true,
+      "reconstructed_equality_residual_linf_exact": "0",
+      "reconstructed_objective": "-5070602400912917545469401693335/5070602400912917605986812821504",
+      "max_coordinate_change_approx": 66.99288724239597,
+      "seconds": {
+        "solve": 0.0028790889991796575,
+        "proposal_and_gate": 0.06488398700093967,
+        "offline_gate": 0.00858479599992279
+      }
+    }
+  ],
+  "highs_loader": {
+    "loaded_without_warning": false,
+    "error": "HiGHS could not load the numerical model without warnings"
+  },
+  "highspy": "1.16.0"
+}

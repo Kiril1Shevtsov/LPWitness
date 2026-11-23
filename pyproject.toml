@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lpwitness"
+version = "0.1.0"
+description = "Dependency-free exact rational verification of continuous linear-program certificates"
+requires-python = ">=3.10"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+
+[project.optional-dependencies]
+scipy = ["scipy>=1.11"]
+highs = ["highspy>=1.16,<2"]
+
+[project.scripts]
+lpwitness = "lpwitness.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["lpwitness*"]

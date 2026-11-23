@@ -1,0 +1,12 @@
+{
+  "upstream": "scipy/scipy",
+  "commit": "5eb0ad93344c10feaf8d4119862dc5c3c4d71caa",
+  "path": "scipy/optimize/tests/test_linprog.py",
+  "git_blob_sha": "29c50fb6fb40af66c90da8420fe8be70af189b9c",
+  "function": "test_bug_20336 (unique function name)",
+  "issue": "https://github.com/scipy/scipy/issues/20336",
+  "license": "BSD-3-Clause, SCIPY_LICENSE.txt",
+  "date_checked": "2026-11-17",
+  "contract": "Exact decimal/fraction coefficients extracted from source lexemes, then a separate exact model of the rounded IEEE-754 binary64 values. No claim these are identical models.",
+  "source_sha256": "f08d86c1585dcd852632b5e489d547471dc5e512d1ce8642c3d0d5643e47ac69"
+}

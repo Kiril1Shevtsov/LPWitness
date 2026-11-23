@@ -1,0 +1,19 @@
+{
+  "format": "lpwitness-report/1",
+  "verified": true,
+  "claim": "unbounded",
+  "model_sha256": "b1687113cc5b57a218f15f5fa2149bb68bd3ee65d6145208721d856e9b38fc1f",
+  "checks": {
+    "model_binding": true,
+    "primal_inequalities": true,
+    "primal_equalities": true,
+    "ray_inequalities": true,
+    "ray_equalities": true,
+    "strict_descent": true
+  },
+  "violations": [],
+  "values": {
+    "primal_objective": "0",
+    "ray_objective": "-1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14",
+  "scipy": "1.17.0",
+  "numerical_success": true,
+  "numerical_x": [
+    0.0
+  ],
+  "raw_witness_verified": false,
+  "exact_witness_verified": true,
+  "interpretation": "Numeric feasibility tolerance is not exact feasibility. This is not an allegation that honoring the requested tolerance is a solver bug."
+}

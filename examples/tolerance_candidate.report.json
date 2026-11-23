@@ -1,0 +1,30 @@
+{
+  "format": "lpwitness-report/1",
+  "verified": false,
+  "claim": "optimal",
+  "model_sha256": "292c104f67ac88a03e4aa62595402c5b2a6fdd8780cb86aa790d0746d7f87543",
+  "checks": {
+    "model_binding": true,
+    "primal_inequalities": false,
+    "primal_equalities": true,
+    "dual_nonnegative": true,
+    "dual_stationarity": true,
+    "zero_gap": true
+  },
+  "violations": [
+    {
+      "check": "primal_inequalities",
+      "detail": [
+        {
+          "row": 0,
+          "slack": "-1/5000"
+        }
+      ]
+    }
+  ],
+  "values": {
+    "primal_objective": "0",
+    "dual_objective": "0",
+    "gap": "0"
+  }
+}
